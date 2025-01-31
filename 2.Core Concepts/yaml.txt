@@ -1,0 +1,4 @@
+Pod v1
+Service v1
+ReplicaSet apps/v1
+Deployment app/v1
