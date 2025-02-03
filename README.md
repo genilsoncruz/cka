@@ -13,4 +13,8 @@
   https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/</br>
   https://helm.sh/docs/intro/install/</br>
   https://docs.portainer.io/start/install-ce/server/kubernetes/baremetal</br>
+  https://developer.hashicorp.com/vault/docs/platform/k8s/helm</br>
+  https://www.keycloak.org/keycloak-benchmark/kubernetes-guide/latest/installation-minikube</br>
+  https://docs.gitlab.com/charts/installation/</br>
+  https://www.jenkins.io/doc/book/installing/kubernetes/#install-jenkins-with-helm-v3</br>
 </p>
