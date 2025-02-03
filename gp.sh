@@ -1,4 +1,4 @@
 git pull
 git add .
-git commit -a -m "Alteracoes."
+git commit -am "Alteracoes."
 git push
