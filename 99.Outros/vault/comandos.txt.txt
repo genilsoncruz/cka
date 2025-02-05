@@ -1,0 +1,18 @@
+kubectl create serviceaccount vault-auth
+nano pod.yaml
+kubectl apply -f pod.yaml
+kubectl describe pod webapp
+kubectl logs webapp -c vault-agent-init
+kubectl exec webapp -c nginx -- cat /vault/secrets/config.txt
+nano deployment-template.yaml
+kubectl apply -f deployment-template.yaml
+kubectl describe pod/nginx-5fc9ff975-xq6wf
+kubectl exec nginx-7c897d75cb-mvjft -c nginx "--" cat /vault/secrets/config.txt
+kubectl exec pod/nginx-5fc9ff975-xq6wf -c nginx "--" cat /vault/secrets/config.txt
+nano deployment-template-configmap.yaml
+kubectl apply -f deployment-template-configmap.yaml
+nano deployment-env.yaml
+kubectl apply -f deployment-env.yaml
+kubectl exec pod/nginx-79cfdbc7cf-sb2dk -c nginx "--" cat /vault/secrets/config.txt
+kubectl describe pod/nginx-79cfdbc7cf-sb2dk
+kubectl exec -it nginx-79cfdbc7cf-sb2dk -c nginx -- cat /vault/secrets/test
