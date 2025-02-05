@@ -22,6 +22,10 @@ https://devopscube.com/building-kubernetes-cluster-the-hard-way/
 https://devopscube.com/setup-kubernetes-cluster-kubeadm/
 https://devopscube.com/production-ready-kubernetes-cluster/
 https://devopscube.com/upgrade-kubernetes-cluster-kubeadm/
+https://devopscube.com/backup-etcd-restore-kubernetes/
+https://devopscube.com/backup-and-restore-eks-cluster-velero/
+https://devopscube.com/kubernetes-cluster-vagrant/
+https://devopscube.com/kubernetes-high-availability/
 
 3.security
 https://devopscube.com/sealed-secrets-kubernetes/
@@ -31,6 +35,9 @@ https://devopscube.com/scan-docker-images-using-trivy/
 4.vault
 https://devopscube.com/setup-hashicorp-vault-beginners-guide/
 https://devopscube.com/vault-agent-injector-tutorial/
+https://www.keycloak.org/operator/basic-deployment
+https://blog.elest.io/best-practices-for-importing-users-from-legacy-applications-to-keycloak/
+https://www.keycloak.org/high-availability/deploy-keycloak-kubernetes
 
 5.observability
 https://devopscube.com/setup-kube-state-metrics/
@@ -46,6 +53,7 @@ https://github.com/kubernetes-sigs/metrics-server
 https://devopscube.com/kubernetes-ingress-tutorial/
 https://devopscube.com/setup-ingress-kubernetes-nginx-controller/
 https://devopscube.com/configure-ingress-tls-kubernetes/
+https://devopscube.com/migrate-kubernetes-ingress-to-gateway-api/
 
 .cicd
 https://devopscube.com/learning-ci-cd-tools/
