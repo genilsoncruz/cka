@@ -40,6 +40,7 @@ https://blog.elest.io/best-practices-for-importing-users-from-legacy-application
 https://www.keycloak.org/high-availability/deploy-keycloak-kubernetes
 
 5.observability
+https://devopscube.com/what-is-observability/
 https://devopscube.com/setup-kube-state-metrics/
 https://devopscube.com/setup-prometheus-monitoring-on-kubernetes/
 https://devopscube.com/alert-manager-kubernetes-guide/
@@ -47,6 +48,7 @@ https://devopscube.com/monitor-linux-servers-prometheus-node-exporter/
 https://devopscube.com/open-source-service-discovery/
 https://devopscube.com/integrate-visualize-prometheus-grafana/
 https://devopscube.com/grafana-loki-architecture/
+https://devopscube.com/setup-grafana-loki/
 https://github.com/kubernetes-sigs/metrics-server
 
 7.tls
@@ -67,9 +69,13 @@ https://devopscube.com/jenkins-build-agents-kubernetes/
 https://devopscube.com/setup-and-configure-sonarqube-on-linux/
 
 .dev
+https://devopscube.com/build-docker-image/
+https://devopscube.com/run-scripts-docker-arguments/
 https://devopscube.com/dockerize-python-flask-application/
 https://devopscube.com/kubernetes-init-containers/
 https://devopscube.com/automating-code-reviews-github/
+https://devopscube.com/create-kubernetes-jobs-cron-jobs/
+https://devopscube.com/kubernetes-deployment-tutorial/
 
 .ia
 https://www.datacamp.com/pt/tutorial/deepseek-v3
