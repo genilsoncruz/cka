@@ -20,7 +20,7 @@ echo $VAULT_ROOT_KEY
 
 kubectl exec vault-0 -- vault operator unseal $VAULT_UNSEAL_KEY
 
-VAULT_ROOT_KEY=hvs.uIuxollM97hb6vDphRPLMTny
+VAULT_ROOT_KEY=%KEY%
 
 kubectl exec vault-0 -- vault login $VAULT_ROOT_KEY
 
@@ -70,7 +70,7 @@ curl --request POST \
     --data '{"jwt": "'$jwt_token'", "role": "webapp"}' \
     http://10.109.12.9:8200/v1/auth/kubernetes/login | jq
 
-curl -H "X-Vault-Token: hvs.CAESIFIX4mkAwd_uCKyx-SQMSjhcFSb-OqbfiBJ3rATULTD7Gh4KHGh2cy54OHpVUWU3dWVveGEzeEI4SGR2alVNS0c"      -H "X-Vault-Namespace: vault"      -X GET http://10.109.12.9:8200/v1/demo-app/data/user01?version=1 | jq
+curl -H "X-Vault-Token: %TOKEN%"      -H "X-Vault-Namespace: vault"      -X GET http://10.109.12.9:8200/v1/demo-app/data/user01?version=1 | jq
 
 http://localhost:8200/v1/sys/init
 
