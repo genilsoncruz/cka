@@ -7,8 +7,11 @@ https://devopscube.com/become-devops-engineer/
 https://devopscube.com/learn-kubernetes-complete-roadmap/
 https://devopscube.com/python-for-devops/
 https://devopscube.com/devops-projects/
+https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+https://devopscube.com/list-of-devops-blogs-and-resources/
 
 1.
+https://devopscube.com/kubernetes-tutorials-beginners/
 https://devopscube.com/infrastructure-as-code-configuration-management/
 https://devopscube.com/immutable-infrastructure/
 https://www.digitalocean.com/community/tutorials/how-to-use-terraform-with-digitalocean
@@ -31,6 +34,7 @@ https://devopscube.com/kubernetes-high-availability/
 https://devopscube.com/sealed-secrets-kubernetes/
 https://devopscube.com/kubernetes-api-access-service-account/
 https://devopscube.com/scan-docker-images-using-trivy/
+https://devopscube.com/create-kubernetes-role/
 
 4.vault
 https://devopscube.com/setup-hashicorp-vault-beginners-guide/
@@ -50,6 +54,8 @@ https://devopscube.com/integrate-visualize-prometheus-grafana/
 https://devopscube.com/grafana-loki-architecture/
 https://devopscube.com/setup-grafana-loki/
 https://github.com/kubernetes-sigs/metrics-server
+https://github.com/VersusControl/versus-incident
+https://docs.fluentbit.io/manual/installation/kubernetes
 
 7.tls
 https://devopscube.com/kubernetes-ingress-tutorial/
