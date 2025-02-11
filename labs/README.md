@@ -42,6 +42,7 @@ https://devopscube.com/vault-agent-injector-tutorial/
 https://www.keycloak.org/operator/basic-deployment
 https://blog.elest.io/best-practices-for-importing-users-from-legacy-applications-to-keycloak/
 https://www.keycloak.org/high-availability/deploy-keycloak-kubernetes
+https://pretius.com/blog/keycloak-angular-integration/
 
 5.observability
 https://devopscube.com/what-is-observability/
