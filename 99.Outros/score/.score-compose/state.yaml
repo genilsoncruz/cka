@@ -1,0 +1,47 @@
+workloads:
+  service-a:
+    spec:
+      apiVersion: score.dev/v1b1
+      containers:
+        container-id:
+          image: busybox
+          variables:
+            CONNECTION_STRING: postgresql://${resources.db.username}:${resources.db.password}@${resources.db.host}:${resources.db.port}
+      metadata:
+        name: service-a
+      resources:
+        db:
+          type: postgres
+      service:
+        ports:
+          www:
+            port: 8000
+            targetPort: 80
+    file: score.yaml
+resources:
+  postgres.default#service-a.db:
+    guid: 47696c1a-ec62-49e6-9756-d15f35bf410d
+    type: postgres
+    class: default
+    id: service-a.db
+    metadata: {}
+    params: {}
+    source_workload: service-a
+    provisioner: template://default-provisioners/postgres
+    state:
+      database: db-PHbTATPz
+      password: HUKXMUlZ3LywfeDe
+      username: user-fECtJCOQ
+    outputs:
+      database: db-PHbTATPz
+      host: pg-unQkBP
+      name: db-PHbTATPz
+      password: HUKXMUlZ3LywfeDe
+      port: 5432
+      username: user-fECtJCOQ
+shared_state:
+  default-provisioners-postgres-instance:
+    instancePassword: HUKXMUlZ3LywfeDe
+    instanceServiceName: pg-unQkBP
+compose_project: score
+mounts_directory: .score-compose/mounts
